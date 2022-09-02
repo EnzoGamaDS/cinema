@@ -1,10 +1,13 @@
 package br.com.mariojp.cinema;
 
+import java.util.Iterator;
+
 public class Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Cadeira s = new Cadeira(10);
+		System.out.println(s.getCadeiras().values());
+		
 	}
 
 }
